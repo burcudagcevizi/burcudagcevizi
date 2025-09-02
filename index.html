@@ -594,6 +594,7 @@
         document.querySelector('form').addEventListener('submit', function(e) {
             e.preventDefault();
             alert('Mesajınız alındı! En kısa sürede size dönüş yapacağız.');
+            this.submit();
             this.reset();
         });
 
